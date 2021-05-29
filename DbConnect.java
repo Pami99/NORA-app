@@ -16,7 +16,7 @@ public class DbConnect {
         
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/policeuser?useSSL=false","root","199811239");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:xxxx/policeuser?useSSL=false","root","xxxx"); //add a avilable port number and pwd
             System.out.println("Database Connected.");
         }
     
